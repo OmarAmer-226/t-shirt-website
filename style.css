@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    list-style: none;
+}
+body{
+    position: relative;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
+    height: 10vh;
+    margin: auto;
+    
+    position: relative;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    text-align: center;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.nav .logo {
+    margin-left: -140px;
+    margin-top: 10px;
+}
+.nav ul li a:hover::after{
+    width: 5%;
+}
+.nav ul li a::after{
+    display: block;
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: #000;
+    position: absolute;
+    text-align: center;
+    border-radius: 20px;
+    bottom: 4px;
+}
+.nav .uu{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav .uu .imgn {
+    width:7%;
+    height:8%;
+    margin: 10.5px 0 0 0;
+}
+.nav .uu .imgn img{
+    width: 100%;
+}
+
+.nav .uu .imge{
+    width: 18%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 0;
+}
+.nav .uu .imge img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.head{
+  /* background-image: url(imges/hero.png);  */
+background-repeat: no-repeat;
+background-color: #f5f2eb;
+    position: relative;
+    width: 96%;
+    height: 100vh;
+    margin-left: 30px;
+}
+.head .back1{
+    width: 32%;
+    height: 60%;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 100%;
+    left: 820px;
+    top: 80px;
+}
+.head .back2{
+    width: 15%;
+    height: 26%;
+    position: absolute;
+    background-color: #fff;
+    border-radius:100% ;
+    top: 430px;
+    left: 710px;
+    bottom: 100px;
+}
+.head img{
+    position: absolute;
+    left: 700px;
+    height: 100vh;
+    top: -2px;
+    
+}
+.head .text{
+    position: absolute;
+    font-family:sans-serif;
+    color: #000;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 313px 400px 300px 100px;
+}
+.head .b1{
+    width: 170px;
+    height: 50px;
+    background-color: #000;
+    color: aliceblue;
+    position: absolute;
+    left: 110px;
+    margin-right: 380px;
+    top: 480px;
+}
+.t1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 27px;
+
+}
+.contanir1{
+    width: 86%;
+    margin:auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    padding-left: 55px;
+}
+.contanir1 img{
+    width: 93%;
+}
+.img .t{
+    padding-top: 5px;
+}
+.contanir2{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 130px;
+    z-index: 1;
+}
+.contanir2 .imge1{
+    width: 70%;
+    margin: 50px 0 0 20px;
+    text-align: center;
+}
+.contanir2 .imge2{
+    width: 70%;
+    margin: 50px 0 0 0;
+}
+.contanir2 .b2 button{
+    width: 140px;
+    height: 40px;
+    margin: 15px 0 0 0;
+    background-color: #000;
+    color: aliceblue;
+}
+.contanir3{
+    width: 90%;
+    margin: 40px 0 0 83px;
+    height: 100vh;
+    position: relative;
+     background-image: url(imges/force-majeure-00tlC0Clfrs-unsplash-1024x683.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.overllay{
+    background-color:#a07d8d;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.2;
+}
+.contanir3 .t2{
+    position: absolute;
+    text-align: center;
+    margin: 300px 400px 400px 500px;
+    font-size:18px ;
+    color:#fff;
+}
+.contanir3 .t2 button{
+    width: 170px;
+    height: 40px;
+    margin: 22px 0 0 0;
+    background-color: #000;
+    color: aliceblue
+}
+.contanir4{
+    width: 55.7%;
+    height: 100vh;
+    margin-left: 30px;
+    margin-top: 125px;
+    background-color: #eaebe7;
+    z-index: 2;
+    position: relative;
+
+}
+.contanir4 .o{
+    width: 70%;
+    height: 50vh;
+    margin: 250px 0 0 780px;
+    position: absolute; 
+}
+.contanir4 .o .t3{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 28px
+}
+.contanir4 .o .t3 .b3{
+    width: 176px;
+    
+}
+
+.contanir4 .o .t3 .b3 button{
+    width: 195px;
+    height: 48px;
+    background-color: #000;
+    color: aliceblue;
+    margin: 40px 0 0 0;
+    font-size: 15px; 
+    
+}
+
+.contanir4 .img3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(imges/collection-03.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 150px;
+    top: -31px;
+    z-index: 1;
+}
+.t4{
+    
+        text-align: center;
+        margin-top: 70px;
+        font-size: 27px;
+    
+}
+.contanir5{
+    width: 86%;
+    margin:auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    padding-left: 55px;
+}
+.contanir5 img{
+    width: 93%;
+}
+.img1 .tt{
+    padding-top: 5px;
+}
+.review{
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding: 20px 0 0 0;
+}
+.review .star .m img{
+    width: 15%;
+    padding-top: 20px;
+}
+.review .star{
+    width: 50%;
+    height: 20%;
+    margin-left: 380px;
+}
+.contanir6{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    margin: 28px 0 0 0;
+}
+.contanir6 .im1{
+    width: 30%;
+    margin: 15px 30px 0 310px;
+    position: relative;
+
+}
+.contanir6.im1 img{
+    width: 100%;
+
+}
+.contanir6 .im2{
+    width: 30%;
+    margin: 15px 0 0 0;
+    position: relative;
+
+}
+.contanir6.im2 img{
+    width: 100%;
+}
+.contanir6 .ttt{
+    width: 80%;
+    height: 8%;
+    background-color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 190px;
+    left:20px ;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
